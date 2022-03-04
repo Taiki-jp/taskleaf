@@ -1,0 +1,25 @@
+# <!doctype html><html lang="en" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_fCQ93gkIIAUes8LHN+5vIDKo5hk0vGuLWb3tuZZ4oHNDYamDlNHTwVfYS/nnSAyYcHwr1S6Y3vElq4Zq58DxFQ=="><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/><link rel="preconnect" href="https://www.google.com" crossorigin><link rel="dns-prefetch" href="https://parking.bodiscdn.com" crossorigin><link rel="dns-prefetch" href="https://fonts.googleapis.com" crossorigin></head><body><div id="target" style='opacity: 0'></div><script>window.park = "eyJ1dWlkIjoiN2Y1NDE0ODMtMDZlMy00YTc2LTk4ZDktOWI0M2RiYzczYzI4IiwicGFnZV90aW1lIjoxNjQ2MDc0NDcxLCJwYWdlX3VybCI6Imh0dHA6XC9cL3d3MjUucmF3LmdpdGh1YnNlcmNvbnRlbnQuY29tXC9zdmVuZnVjaHNcL3JhaWxzLWkxOG5cL21hc3RlclwvcmFpbHNcL2xvY2FsXC9qYS55bWw/c3ViaWQxPTIwMjIwMzAxLTA1NTQtMzExNS04OWM1LWUyZGU1ODhmZDFiYyIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0Ijp7InN1YmlkMSI6IjIwMjIwMzAxLTA1NTQtMzExNS04OWM1LWUyZGU1ODhmZDFiYyJ9LCJwYWdlX2hlYWRlcnMiOnsiY29ubmVjdGlvbiI6WyJLZWVwLUFsaXZlIl0sImhvc3QiOlsid3cyNS5yYXcuZ2l0aHVic2VyY29udGVudC5jb20iXSwiYWNjZXB0LWVuY29kaW5nIjpbImlkZW50aXR5Il0sImFjY2VwdCI6WyIqXC8qIl0sInVzZXItYWdlbnQiOlsiV2dldFwvMS4yMC4xIChsaW51eC1nbnVlYWJpaGYpIl19LCJob3N0Ijoid3cyNS5yYXcuZ2l0aHVic2VyY29udGVudC5jb20iLCJpcCI6IjEzMy4yMDAuMjExLjY0In0=";</script><script src="/js/parking.2.82.0.js"></script></body></html>
+ja:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "バリデーションに失敗しました: %{errors}"
+        restrics_dependent_destroy:
+          has_one: "%{record}が存在しているので削除できません"
+          has_many: "%{record}が存在しているので削除できません"
+    models:
+      task: タスク
+    attributes:
+      task:
+        id: ID
+        name: 名称
+        description: 詳しい説明
+        created_at: 登録日時
+        updated_at: 更新日時
+    helpers:
+      select:
+        prompt: 選択してください
+      submit:
+        create: 登録する
+        submit: 保存する
+        update: 更新する
