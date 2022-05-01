@@ -1,8 +1,8 @@
 doctype html
 html
   head
-    title
-      | Taskleaf
+    / title
+    /   | Taskleaf
     meta[name="viewport" content="width=device-width,initial-scale=1"]
     = csrf_meta_tags
     = csp_meta_tag
@@ -10,7 +10,7 @@ html
     = javascript_importmap_tags
   body
   .app-title.navbar.navbar-expand-md.navbar-light.bg-light 
-    .navbar-brand Taskleaf 
+    / .navbar-brand Taskleaf 
   .container
     - if flash.notice.present?
       .alert.alert-success= flash.notice
